@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **Computer Science**
 
-- 👨‍💻 All of my projects are available at [www.linkedin.com/in/mukeshlilawat](www.linkedin.com/in/mukeshlilawat)
+- 👨‍💻 All of my projects are available at [www.linkedin.com/in/mukeshlilawat](www.linkedin.com/in/mukeshlilawat1)
 
 - ⚡ Fun fact **i am funny 😁**
 
