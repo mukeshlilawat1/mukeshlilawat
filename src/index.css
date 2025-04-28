@@ -17,3 +17,31 @@ body {
     @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02]
     backdrop-blur-2xl hover:bg-zinc-50/15 transition-transform transition-colors active:scale-95
 }
+
+/*
+ navbar
+*/
+.navbar {
+    @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/10 
+           rounded-2xl ring-1 ring-inset ring-zinc-50/5 
+           scale-90 isolate blur-sm opacity-0 invisible 
+           transition-all duration-300;
+}
+
+.navbar.active {
+    @apply opacity-100 scale-100 blur-0 visible;
+}
+
+  
+.nav-link {
+    @apply grid items-center  h-9 px-4 text-sm font-medium tracking-wide text-zinc-50/50 hover:text-zinc-50 transition-colors
+}
+  
+.nav-link.active {
+@apply text-zinc-900 duration-500
+}
+
+.navbar .active-box {
+    @apply absolute  bg-zinc-50 rounded-lg -z-10 transition-all duration-500;
+}
+
