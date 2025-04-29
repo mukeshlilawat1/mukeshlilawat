@@ -11,6 +11,15 @@ body {
     @apply bg-zinc-900 text-zinc-50 h-[200vh]
 }
 
+
+/* utilities */
+.material-symbols-rounded {
+    @apply w-[1em] h-[1em] overflow-hidden;
+    font-variation-settings : "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+
+
+}
+
 /* components */
 /* menu btn */
 .menu-btn {
@@ -25,7 +34,7 @@ body {
     @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/10 
            rounded-2xl ring-1 ring-inset ring-zinc-50/5 
            scale-90 isolate blur-sm opacity-0 invisible 
-           transition-all duration-300;
+           transition-all duration-300 md:static md:flex md:items-center md:opacity-100 md:blur-0 md:visible md:scale-100 backdrop-blur-2xl;
 }
 
 .navbar.active {
@@ -45,3 +54,13 @@ body {
     @apply absolute  bg-zinc-50 rounded-lg -z-10 transition-all duration-500;
 }
 
+
+/* button */
+
+.btn {
+    @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-colors
+}
+
+.btn-secondary {
+    @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80
+}
