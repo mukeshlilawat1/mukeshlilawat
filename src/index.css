@@ -29,6 +29,24 @@ body {
     @apply bg-zinc-700 overflow-hidden
 }
 
+.img-cover {
+    @apply w-full h-full object-cover
+}
+
+
+/* typography */
+.headline-1 {
+    @apply max-w-max;
+    background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.headline-1 {
+@apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+}
 
 
 /* components */
