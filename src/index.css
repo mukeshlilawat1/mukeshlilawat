@@ -17,8 +17,19 @@ body {
     @apply w-[1em] h-[1em] overflow-hidden;
     font-variation-settings : "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 
+}
+
+/* container */
+.container {
+    @apply px-4 mx-auto lg:px-8 xl:max-w-6xl;
 
 }
+/* img - box */
+.img-box {
+    @apply bg-zinc-700 overflow-hidden
+}
+
+
 
 /* components */
 /* menu btn */
