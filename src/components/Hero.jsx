@@ -1,5 +1,13 @@
 import React from 'react'
 
+
+/**
+ * 
+ * components
+ */
+import { ButtonPrimary, ButtonOutline } from './Button'
+
+
 const Hero = () => {
     return (
         <section
@@ -31,9 +39,17 @@ const Hero = () => {
                     </h2>
 
                     <div className='flex items-center gap-3'>
-                        ButtonPrimary
+                        <ButtonPrimary
+                            label="Download CV"
+                            icon="Download"
 
-                        ButtonOutline
+                        />
+
+                        <ButtonOutline
+                            href="#About"
+                            label="Scroll down"
+                            icon="arrow_downward"   // <-- string icon name
+                        />
 
                     </div>
                 </div>

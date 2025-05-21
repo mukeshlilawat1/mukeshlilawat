@@ -33,6 +33,10 @@ body {
     @apply w-full h-full object-cover
 }
 
+.section{
+    @apply pt-20 lg:pt-32
+}
+
 
 /* typography */
 .headline-1 {
@@ -47,6 +51,8 @@ body {
 .headline-1 {
 @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
 }
+
+
 
 
 /* components */
@@ -92,4 +98,22 @@ body {
 
 .btn-secondary {
     @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80
+}
+
+
+/* Your custom styles */
+.btn .material-symbols-rounded {
+  @apply text-[18px];
+}
+
+.btn:has(.material-symbols-rounded) {
+  @apply pr-3
+}
+
+.btn-primary {
+  @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400
+}
+
+.btn-Outline {
+    @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800
 }
