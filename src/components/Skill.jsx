@@ -102,8 +102,8 @@ const skillItem = [
         label: 'Rust',
         desc: 'Programming language'
     }, {
-        imgSrc: './src/assets/vue.svg',
-        label: 'Vue',
+        imgSrc: './src/assets/NumPy.svg',
+        label: 'NumPy',
         desc: 'Framework'
     }, {
         imgSrc: './src/assets/maven.svg',
@@ -131,6 +131,20 @@ const skillItem = [
         imgSrc: './src/assets/docker.svg',
         label: 'Docker',
         desc: 'Containerization'
+    },
+
+    {
+        imgSrc: './src/assets/mysql-original-wordmark.svg',
+        label: 'MySql',
+        desc: 'DataBase'
+    }, {
+        imgSrc: './src/assets/postgresql.svg',
+        label: 'Postgresql',
+        desc: 'Database'
+    }, {
+        imgSrc: './src/assets/MongoDB.svg',
+        label: 'MongoDB',
+        desc: 'Database'
     },
 ];
 
