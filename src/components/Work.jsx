@@ -6,33 +6,21 @@ import ProjectCard from './ProjectCard';
 
 const works = [
     {
-        imgSrc: '/images/project-1.jpg',
-        title: 'Full Stack Hotel Booking App',
-        tags: ['API', 'MVC', 'Development'],
+        imgSrc: '/src/assets/space.png',
+        title: 'Java Game Application',
+        tags: ['Core Java', 'JavaSwing & Java AWT', 'Development'],
         projectLink: ''
     },
     {
-        imgSrc: '/images/project-2.jpg',
-        title: 'Full-Stack Instagram clone',
-        tags: ['API', 'SPA'],
+        imgSrc: '/src/assets/dinosaur.png',
+        title: 'Java Game Application',
+        tags: ['Core Java', 'JavaSwing & Java AWT', 'Development'],
         projectLink: ''
     },
     {
-        imgSrc: '/images/project-3.jpg',
-        title: 'Full-Stack Banking Dashboard',
-        tags: ['Development', 'API'],
-        projectLink: ''
-    },
-    {
-        imgSrc: '/images/project-4.jpg',
-        title: 'Full-Stack Food Delivery App',
-        tags: ['Web-design', 'Development'],
-        projectLink: ''
-    },
-    {
-        imgSrc: '/images/project-5.jpg',
-        title: 'Full-Stack ECommerce website',
-        tags: ['ECommerce', 'Development'],
+        imgSrc: '/src/assets/birds.png',
+        title: 'Java Game Application',
+        tags: ['Core Java', 'JavaSwing & Java AWT', 'Development'],
         projectLink: ''
     },
 ];
@@ -44,7 +32,7 @@ const Work = () => {
                 <h2 className='headline-2 mb-8'>
                     My portfolio highlights</h2>
 
-                <div className=''>
+                <div className="grid gap-x-6 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
                     {works.map(({ imgSrc, title, tags, projectLink }, key) => (
                         <ProjectCard key={key} imgSrc={imgSrc} title={title} tags={tags} projectLink={projectLink} />
                     ))}
