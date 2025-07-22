@@ -7,21 +7,21 @@ import ProjectCard from './ProjectCard';
 const works = [
     {
         imgSrc: '/src/assets/space.png',
-        title: 'Java Game Application',
+        title: 'Space-Invaders-Game',
         tags: ['Core Java', 'JavaSwing & Java AWT', 'Development'],
-        projectLink: ''
+        projectLink: 'https://github.com/mukeshlilawat1/Space-Invaders-Game-Java.git'
     },
     {
         imgSrc: '/src/assets/dinosaur.png',
-        title: 'Java Game Application',
+        title: 'Google-Chrome-Dinosaur-Game',
         tags: ['Core Java', 'JavaSwing & Java AWT', 'Development'],
-        projectLink: ''
+        projectLink: 'https://github.com/mukeshlilawat1/Google-Chrome-Dinosaur-Game.git'
     },
     {
         imgSrc: '/src/assets/birds.png',
-        title: 'Java Game Application',
+        title: 'Floppy-Bird-Game',
         tags: ['Core Java', 'JavaSwing & Java AWT', 'Development'],
-        projectLink: ''
+        projectLink: 'https://github.com/mukeshlilawat1/Floppy-Bird-Game.git'
     },
 ];
 
